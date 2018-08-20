@@ -1,0 +1,127 @@
+/*Navbar*/
+nav{
+    background-color: transparent;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: red;
+}
+nav li:hover{
+    background-color: 
+}
+
+nav a:hover {
+  color: #ffd700;
+}
+
+nav a::before{
+  content: '';
+  display: block;
+  height: 5px;
+  width: 100%;
+  background-color: red;
+  top: 0;
+  width: 0%;
+  transition: all ease-in-out 300ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+.navbar-light .navbar-brand{
+    color: red;
+}
+
+/* Style the video: 100% width and height to cover the entire window */
+header {
+  position: relative;
+  background-color: black;
+  height: 75vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+  border-bottom: 10px solid red;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+.display-2{
+    font-family: 'Oswald',sans-serif;
+    color: red;
+}
+
+/*@media (pointer: coarse) and (hover: none) {
+  header {
+    background: url() black no-repeat center center scroll;
+  }
+  header video {
+    display: none;
+  }
+}*/
+
+/*--What we do--*/
+.header{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.intro{
+    border: 10px solid red;
+}
+#opening{
+    font-size: 40px;
+}
+
+.programs{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.plan img{
+    margin-left: 23px;
+}
+.plan h4{
+    text-align: center;
+    margin-top: 10px;
+}
+
+/*--Results--*/
+.underline{
+    border-bottom: 3px solid red;
+}
+.coach_area{
+    background-color: black;
+    margin-top: 20px;
+}
