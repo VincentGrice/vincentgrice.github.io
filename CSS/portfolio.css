@@ -33,7 +33,7 @@ body, html {
 }
 
 /*--Brand--*/
-.navbar-brand, .nav-link{
+.navbar-brand, .nav-link {
   font-family: 'Kaushan Script',cursive;
   font-size: 24px;
   font-weight: 900;
@@ -138,6 +138,11 @@ h1, h2, h3 {
   border-style: solid white;
 }
 
+.resume {
+  font-family: 'Kaushan Script',cursive;
+  font-size: 40px;
+  font-weight: 900;
+}
 
 
 /*--Skillbar--*/
