@@ -3,6 +3,7 @@ body, html {
     height: 100%;
 }
 
+
 .hero-image {
     /* The image used */
     background-image: url(../Images/hero_image.png);
@@ -18,6 +19,7 @@ body, html {
     background-attachment: fixed;
 
 }
+
 @media (max-width: 768px){
   .mobile-hidden {
     display: none;
