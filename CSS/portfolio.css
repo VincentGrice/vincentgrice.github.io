@@ -20,11 +20,11 @@ body, html {
 
 }
 
-@media (max-width: 768px){
-  .mobile-hidden {
-    display: none;
-  }
+@media (max-width: 768px) {
+  background-image: url(../Images/hero_image.png) no-repeat center top;
 }
+
+
 /* Place text in the middle of the image */
 .hero-text {
     text-align: center;
@@ -74,11 +74,6 @@ nav a:hover::before {
   width: 100%;
 }
 
-/*--Animated headline--*/
-
-
-
-
 /*--Anchor Span tags--*/
 .anchor{
   display: block;
@@ -109,9 +104,16 @@ h1, h2, h3 {
 
 .about-area{
   background-image:url(../Images/smile.png);
+  background-size: 100%;
   background-size: cover;
-  object-fit: cover;
+  height: auto;
+  width: 100%;
 }
+
+@media (max-width: 768px) {
+  background-image:url('../Images/smile.png') no-repeat center top;
+}
+
 
 #contact-text, .para_1 {
   font-size: 24px;
