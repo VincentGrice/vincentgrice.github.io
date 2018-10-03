@@ -103,17 +103,12 @@ h1, h2, h3 {
 /*---About Area---*/
 
 .about-area{
-  background-image:url(../Images/smile.png);
+  background-image: linear-gradient(to bottom right, black, grey);
   background-size: 100%;
   background-size: cover;
   height: auto;
   width: 100%;
 }
-
-@media (max-width: 768px) {
-  background-image:url('../Images/smile.png') no-repeat center top;
-}
-
 
 #contact-text, .para_1 {
   font-size: 24px;
@@ -202,7 +197,7 @@ h1, h2, h3 {
 
 /*---Projects Area---*/
 .project-area{
-  background-image: url(../Images/mountain-range.jpg);
+  background-image: linear-gradient(to bottom right, black, grey);
   background-size: cover;
 }
 
@@ -242,6 +237,7 @@ hr{
   display: flex;
   justify-content: center;
   background-size: cover;
+  background-image: linear-gradient(to bottom right, black, grey);
 }
 
 .testimonial-header{
