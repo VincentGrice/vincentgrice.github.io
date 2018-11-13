@@ -79,14 +79,7 @@ header .overlay {
     color: red;
 }
 
-/*@media (pointer: coarse) and (hover: none) {
-  header {
-    background: url() black no-repeat center center scroll;
-  }
-  header video {
-    display: none;
-  }
-}*/
+
 
 /*--What we do--*/
 .header{
