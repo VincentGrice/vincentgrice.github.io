@@ -20,6 +20,15 @@ body, html {
 
 }
 
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) { 
+    .hero-image{
+      background-image: linear-gradient(to right, #2d0ff2, #9e00c8, #c800a0, #da007e, #de0664);
+    } 
+
+}
+
 
 
 /* Place text in the middle of the image */
