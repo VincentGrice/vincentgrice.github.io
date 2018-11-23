@@ -84,6 +84,15 @@ $(window).on('scroll', function(){
   }
 });
 
+/*--Featured Projects--*/
+
+// bioMp(document.getElementById('preview'));
+
+// bioMp(document.getElementById('preview'), {
+//     url: 'http://beeker.io',
+//     view: 'left',
+//     image: 'images/iphone6_side_left_gold.png'
+// });
 
 
 
@@ -93,9 +102,4 @@ AOS.init({
       duration: 2000,
     });
 
-/*--Contact Form--*/
 
-
-$("#prospects_form").submit(function(e) {
-    e.preventDefault();
-})
