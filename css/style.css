@@ -307,6 +307,7 @@ a,
 .parallax-bg {
   background-attachment: fixed;
   background-size: cover;
+
 }
 
 /* Vertical margin, padding */
@@ -2044,6 +2045,16 @@ Google map
 --------------------------------------------------------------*/
 .testimonial:before {
   background: rgba(2, 2, 2, 0.4);
+}
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) {
+  .testimonial{
+    background: url(https://images.pexels.com/photos/128458/pexels-photo-128458.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-size: 100%;
+    background-size: cover;
+  }
 }
 
 .testimonials-slider {
