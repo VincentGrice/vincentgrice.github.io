@@ -1943,16 +1943,19 @@ Google map
 
 .work-descr {
   color: black;
+  overflow: hidden;
 }
 
 .work-item:hover .work-image:after {
   background: rgba(0, 0, 0, 0.6);
+  overflow: hidden;
 }
 
 .work-item:hover .work-image > img {
   -webkit-transform: scale(1.1) rotate(2deg);
   -ms-transform: scale(1.1) rotate(2deg);
   transform: scale(1.1) rotate(2deg);
+  overflow: hidden;
 }
 
 .work-item:hover .work-caption {
@@ -1962,6 +1965,7 @@ Google map
   -webkit-transform: translateY(50%);
   -ms-transform: translateY(50%);
   transform: translateY(50%);
+  overflow: hidden;
 }
 
 /* Work item white background*/
