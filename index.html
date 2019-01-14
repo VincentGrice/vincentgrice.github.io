@@ -79,7 +79,7 @@
             <div class="row">
               <div class="col-sm-8 col-sm-offset-2">
                 <h2 class="module-title font-alt">Welcome to my Portfolio</h2>
-                <div class="module-subtitle font-serif large-text">I'm a former teacher turned Software Developer. I yearn to build applications that will shape the future. </div>
+                <div class="module-subtitle font-serif large-text">I'm a former teacher turned Software Developer.</div>
               </div>
             </div>
             <div class="row">
@@ -165,7 +165,7 @@
        <!-- Video -->
 
        <!-- My work -->
-        <section class="module pb-0" id="works">
+        <section >
           <div class="container">
             <div class="row">
               <div class="col-sm-6 col-sm-offset-3">
@@ -177,25 +177,72 @@
           </div>
           <div class="container">
             <div class="row">
-              <div class="col-sm-12">
-                <ul class="filter font-alt" id="filters">
-                  <li><a class="current wow fadeInUp" href="#" data-filter="*">All</a></li>
-                  <li><a class="wow fadeInUp" href="#" data-filter=".Python" data-wow-delay="0.2s">Python</a></li>
-                  <li><a class="wow fadeInUp" href="#" data-filter=".React" data-wow-delay="0.4s">React</a></li>
-                  <!-- <li><a class="wow fadeInUp" href="#" data-filter=".HTML" data-wow-delay="0.6s">HTML/CSS3</a></li> -->
-                  <!-- <li><a class="wow fadeInUp" href="#" data-filter=".webdesign" data-wow-delay="0.6s">Web Design</a></li> -->
-                </ul>
+              <div class="col-md-6">
+                <a href="https://www.johnderae.com"><h1 class="text-center">Python/Django</h1></a>
+                <img src="images/derae-training.jpg" style="width: 300px; height: 300px; object-fit: cover;float: left; border-radius: 20px; padding: 10px;">
+                <h4><strong>E-Commerce website for a client using Django backend creating database models to manipulate data. This website features a register/login system with the ability to purchase programs as a user or guest. Users will have a library to download files from after purchase is successful. Purchases are powered through Stripe integration. There are also blogs that will be available for users and guest to read. The owner also can view data analytics using Chart.js to view the last 4 weeks of sales. Static files are hosted on AmazonS3. This project has ongoing updates as most of the written text and photos will changes.</strong></h4>
+              </div>
+
+              <div class="col-md-6">
+                <a href="http://www.gricegames.site"><h1 class="text-center">Python/Flask</h1></a>
+                <img src="images/game.PNG" style="width: 300px; height: 300px; object-fit: cover;float: left; border-radius: 20px; padding: 10px;">
+                <h4><strong> Developed a REST API web application using the Python framework Flask. You can add games to the database.<br><br> 
+
+                            -Implementing third-party OAuth authentication with google.<br><br>
+
+                          -Implementing CRUD (create, read, update and delete) operations for admin to add new games, delete games, and edit games.</strong></h4>
               </div>
             </div>
+
+            <div class="row">
+              <div class="col-md-6">
+                <a href="https://genius-grice.herokuapp.com/"><h1 class="text-center">React/Node.js</h1></a>
+                <img src="images/face-app.PNG" style="width: 300px; height: 300px; object-fit: cover;float: left; border-radius: 20px; padding: 10px;">
+                <h4><strong>  -React App with User registration and login with password protection.<br><br>
+
+                              -Copy an image's url from the web and paste the the url in the detection box<br><br>
+
+                              -Clarifai's API will use an face detection feature and put a box around the face of the person used in the image.
+                            </strong></h4>
+              </div>
+
+              <div class="col-md-6">
+                <a href="https://afternoon-spire-98952.herokuapp.com/"><h1 class="text-center">React/Node.js</h1></a>
+                <img src="https://images.pexels.com/photos/1210532/pexels-photo-1210532.jpeg?auto=compress&cs=tinysrgb&h=350" style="width: 300px; height: 300px; object-fit: cover;float: left; border-radius: 20px; padding: 10px;">
+                <h4><strong>  -React App that uses a Youtube API to display videos within the app.<br><br>
+
+                              -Search bar integrated to search any youtube video you want while showing up to 5 videos for results<br><br>
+
+                              -Uses node.js with a simple express API.
+                            </strong></h4>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-6">
+                <a href="https://thawing-basin-78217.herokuapp.com/"><h1 class="text-center">React/Node.js</h1></a>
+                <img src="https://images.pexels.com/photos/595804/pexels-photo-595804.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" style="width: 300px; height: 300px; object-fit: cover;float: left; border-radius: 20px; padding: 10px;">
+                <h4><strong>  This was one of my first projects getting into web development using an API that pulls users into a database while allowing a search bar to filter the users.</strong></h4>
+               </div>
+
+               <div class="col-md-6">
+                <a href="https://github.com/VincentGrice/Log-Analysis"><h1 class="text-center">Python Script</h1></a>
+                <img src="https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" style="width: 300px; height: 300px; object-fit: cover;float: left; border-radius: 20px; padding: 10px;">
+                <h4><strong>  Logs Analysis python program that extracts data from a database with SQL queries.</strong></h4>
+              </div>
+              
+            </div>
+
+            </div>
           </div>
-          <ul class="works-grid works-grid-gut works-grid-3 works-hover-w" id="works-grid">
-            <li class="work-item Python"><a href="#works">
-                <div class="work-image" style="width: 442.98px; height: 295.23px;"><img src="https://images.pexels.com/photos/374898/pexels-photo-374898.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Portfolio Item"/></div>
-                <div class="work-caption font-alt">
-                  <h3 class="work-title">Django/Python E-Commerce Website for a client's quilting business</h3>
-                  <div class="work-descr"><strong>Coming Soon</strong></div>
-                </div></a></li>
-            <li class="work-item Python"><a href="http://www.gricegames.site">
+          
+            <!-- <div Python"><a href="https://www.johnderae.com">
+                <div style="width: 442.98px; height: 295.23px;"><img src="images/derae-training.jpg" alt="Portfolio Item"/></div>
+                <div >
+                  <h3 >Django/Python E-Commerce Website for a client's fitness business</h3>
+                  <div class=""><strong>View Website</strong></div>
+                </div></a></div> -->
+            <!-- <li class="work-item Python"><a href="http://www.gricegames.site">
                 <div class="work-image" style="width: 442.98px; height: 295.23px;"><img src="images/game.PNG" alt="Portfolio Item"/></div>
                 <div class="work-caption font-alt">
                   <h3 class="work-title">Python Game Vault that lets you login in with Google Auth and add games. Only the admin can delete/edit games.</h3>
@@ -225,8 +272,8 @@
                   <h3 class="work-title">Logs Analysis python program that extracts data from a database with SQL queries</h3>
                   <div class="work-descr">View Code</div>
                 </div></a></li>
-
-          </ul>
+ -->
+        
 
         </section>
 
@@ -296,7 +343,7 @@
 
         
         <!-- Testimonial Slider -->
-        <section class="module bg-dark-60 pt-0 pb-0 parallax-bg testimonial" data-background="https://images.pexels.com/photos/128458/pexels-photo-128458.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+       <!--  <section class="module bg-dark-60 pt-0 pb-0 parallax-bg testimonial" data-background="https://images.pexels.com/photos/128458/pexels-photo-128458.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
           <div class="testimonials-slider pt-140 pb-140">
             <ul class="slides">
               <li>
@@ -350,7 +397,7 @@
               
             </ul>
           </div>
-        </section>
+        </section> -->
 
 
 

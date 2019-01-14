@@ -12,6 +12,10 @@ body {
   font: 400 12px/1.8 "Open Sans", sans-serif;
   color: #666;
   -webkit-font-smoothing: antialiased;
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
 }
 
 img {
@@ -1376,6 +1380,7 @@ General Styles - Owlcarousel
   background-repeat: no-repeat;
   background-position: center center;
   width: 100%;
+  height: 100%;
   z-index: 0;
   background-size: cover;
 }
