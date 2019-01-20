@@ -3107,6 +3107,33 @@ and (max-device-width : 667px) {
   cursor: pointer;
   box-shadow: 0 5px 10px rgba(0,0,0,.5);
 }
-.card a:hober {
+.card a:hover {
   text-decoration: none;
+}
+
+/*Swiper*/
+.swiper-container {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 350px;
+  height: 350px;
+  background: linear-gradient(-45deg, #003366, #cc0000);
+  margin-top: 75px;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+}
+.swiper-slide img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid #003366;
+  margin-top: -75px;
+  box-shadow: 0 10px 10px rgba(0,0,0,.5);
 }
