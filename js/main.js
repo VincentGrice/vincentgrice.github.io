@@ -349,31 +349,31 @@ console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55')
          * Youtube video background
          /* ---------------------------------------------- */
 
-        $(function(){
-            $(".video-player").mb_YTPlayer();
-        });
+        // $(function(){
+        //     $(".video-player").mb_YTPlayer();
+        // });
 
-        $('#video-play').click(function(event) {
-            event.preventDefault();
-            if ($(this).hasClass('fa-play')) {
-                $('.video-player').playYTP();
-            } else {
-                $('.video-player').pauseYTP();
-            }
-            $(this).toggleClass('fa-play fa-pause');
-            return false;
-        });
+        // $('#video-play').click(function(event) {
+        //     event.preventDefault();
+        //     if ($(this).hasClass('fa-play')) {
+        //         $('.video-player').playYTP();
+        //     } else {
+        //         $('.video-player').pauseYTP();
+        //     }
+        //     $(this).toggleClass('fa-play fa-pause');
+        //     return false;
+        // });
 
-        $('#video-volume').click(function(event) {
-            event.preventDefault();
-            if ($(this).hasClass('fa-volume-off')) {
-                $('.video-player').YTPUnmute();
-            } else {
-                $('.video-player').YTPMute();
-            }
-            $(this).toggleClass('fa-volume-off fa-volume-up');
-            return false;
-        });
+        // $('#video-volume').click(function(event) {
+        //     event.preventDefault();
+        //     if ($(this).hasClass('fa-volume-off')) {
+        //         $('.video-player').YTPUnmute();
+        //     } else {
+        //         $('.video-player').YTPMute();
+        //     }
+        //     $(this).toggleClass('fa-volume-off fa-volume-up');
+        //     return false;
+        // });
 
 
         /* ---------------------------------------------- /*
@@ -405,7 +405,7 @@ console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55')
 
             // Build carousel
             $(this).owlCarousel( {
-                navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
+                navText: [],
                 nav: navigation,
                 dots: pagination,
                 loop: true,
@@ -416,7 +416,15 @@ console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55')
             });
 
         });
-
+        // var owl = $('.owl-carousel');
+        //     owl.owlCarousel({
+        //         items:4,
+        //         loop:true,
+        //         margin:10,
+        //         autoplay:true,
+        //         autoplayTimeout:1000,
+        //         autoplayHoverPause:true
+        //     });
 
         /* ---------------------------------------------- /*
          * Blog masonry
@@ -848,4 +856,5 @@ console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55')
     });
 })(jQuery);
 
-
+  
+    
