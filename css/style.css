@@ -3141,6 +3141,9 @@ and (max-device-width : 667px) {
     width: 375px;
     height: 400px;
   }
+  .paypal {
+    display: flex;justify-content: center !important;
+  }
 
 }
 
